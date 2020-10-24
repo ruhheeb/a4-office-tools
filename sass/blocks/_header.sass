@@ -1,0 +1,147 @@
+.header
+  &-top
+    padding: 20px 0
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15)
+    &__wrapper
+      display: flex
+      justify-content: space-between
+      align-items: center
+      max-width: 1275px
+      width: 92%
+      margin: auto
+  &__nav
+    margin: 0 auto 0 69px
+  &-nav
+    &__menu
+      display: flex
+      padding: 0
+      list-style: none
+    &__item
+      margin-right: 33px
+    &__link
+      font-weight: 400
+      line-height: 18px
+      color: $dark-color
+  &-footer
+    padding: 18px 0
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15)
+    &__wrapper
+      display: flex
+      justify-content: space-between
+      align-items: center
+      max-width: 1275px
+      width: 92%
+      margin: auto
+.logo
+  &__icon
+    width: 37px
+    height: 43px
+.adress
+  display: flex
+  align-items: center
+  margin-right: 150px
+  &__info
+    font-weight: 400
+    font-size: 15px
+    line-height: 18px
+    color: $dark-color
+    opacity: 0.3
+  &__location
+    margin-left: 10px
+    font-weight: 400
+    font-size: 15px
+    line-height: 18px
+.social
+  &__link
+    display: inline-block
+    margin-left: 17px
+    &:nth-of-type(1)
+      margin-left: 0
+.callback
+  &__worktime
+    font-weight: 700
+    font-size: 10px
+    line-height: 12px
+    color: $dark-color
+    opacity: 0.3
+  &__phone-wrap
+    display: flex
+    align-items: center
+  &__number
+    display: inline-block
+    margin-right: 23px
+    font-weight: 700
+    font-size: 15px
+    line-height: 18px
+    color: $dark-color
+  &__button
+    padding: 8px 17px
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+    color: $light-color
+    background-color: $primary-color
+    border-radius: 2px
+    box-shadow: 2px 3px 5px 1px rgba(114, 104, 239, 0.19)
+.search
+  position: relative
+  width: 630px
+  height: 36px
+  overflow: hidden
+  border: 1px solid $border-color
+  &__input
+    padding: 12px 22px
+    width: 90%
+    height: 100%
+    font-weight: 700
+    font-size: 10px
+    line-height: 12px
+    border: none
+    &::-webkit-input-placeholder
+      color: $dark-color
+      opacity: 0.3
+    &:-ms-input-placeholder
+      color: $dark-color
+      opacity: 0.3
+    &::-ms-input-placeholder
+      color: $dark-color
+      opacity: 0.3
+    &::placeholder
+      color: $dark-color
+      opacity: 0.3
+  &__button
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 10%
+    height: 100%
+    background-color: $light-color
+
+.basket
+  display: flex
+  height: 33px
+  &__icon
+    margin-right: 11px
+    width: 31px
+    height: 31px
+    fill: $dark-color
+  &__info
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    height: 100%
+  &__name
+    margin-bottom: 4px
+    font-weight: 400
+    font-size: 12px
+    line-height: 14px
+    color: $dark-color
+  &__amount
+    font-weight: 700
+    font-size: 12px
+    line-height: 14px
+    color: $dark-color
