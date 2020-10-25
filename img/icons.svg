@@ -9,4 +9,12 @@
     <path d="M31 1v5h5" stroke="#7268EF" stroke-width="2"></path>
     <path stroke="#7268EF" stroke-width="2" d="M2 1h34v41H2z"></path>
   </symbol>
+
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5 2" id="minus">
+    <path d="M4.358 1.493H.308V.239h4.05v1.254z" fill="#000"></path>
+  </symbol>
+  
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 10" id="plus">
+    <path d="M5.562 4.517h3.37V5.97h-3.37v3.818H4.018V5.97H.648V4.517h3.37V.99h1.544v3.528z" fill="#000"></path>
+  </symbol>
 </svg>

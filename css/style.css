@@ -378,6 +378,7 @@ input:focus {
 .header-top {
   padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #FFFFFF;
 }
 
 .header-top__wrapper {
@@ -412,6 +413,7 @@ input:focus {
 .header-footer {
   padding: 18px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #FFFFFF;
 }
 
 .header-footer__wrapper {
@@ -485,10 +487,13 @@ input:focus {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #FFFFFF;
-  background-color: #7268EF;
   border-radius: 2px;
   box-shadow: 2px 3px 5px 1px rgba(114, 104, 239, 0.19);
+}
+
+.button {
+  background-color: #7268EF;
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .search {
@@ -559,5 +564,325 @@ input:focus {
   font-size: 12px;
   line-height: 14px;
   color: #000000;
+}
+
+.main {
+  padding: 49px 0 105px;
+}
+
+.main__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__header {
+  max-width: 430px;
+}
+
+.main__title {
+  margin: 0 0 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #000000;
+}
+
+.main__button {
+  padding: 19px 48px;
+  width: 148px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.045em;
+}
+
+.main-item {
+  position: relative;
+  width: 896px;
+  height: 606px;
+}
+
+.main-item__outline {
+  max-width: 734px;
+  height: 541px;
+  border: 3px solid #7268EF;
+  border-radius: 15px;
+}
+
+.main-item__image-wrap {
+  position: absolute;
+  top: 31px;
+  left: 31px;
+  max-width: 802px;
+  height: 534px;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.main-item__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.basket-main {
+  padding: 49px 0 105px;
+}
+
+.basket-main__wrapper {
+  display: flex;
+}
+
+.basket-main-slider {
+  display: flex;
+  align-items: flex-start;
+  width: 697px;
+  height: 599px;
+}
+
+.basket-main-slider__container {
+  margin: 0 40px 0 0;
+  max-width: 497px;
+  height: 100%;
+  background-color: #FFFFFF;
+}
+
+.basket-main-slider__item-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+  height: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 15px;
+}
+
+.basket-main-slider__image {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.basket-main__item-card {
+  padding: 18px 26px 29px;
+}
+
+.basket-main__counter {
+  margin-bottom: 30px;
+}
+
+.basket-main__callback-form {
+  margin-bottom: 37px;
+}
+
+.item-thumbs .basket-main-slider__slide {
+  width: 112px;
+  height: 100%;
+  cursor: pointer;
+}
+
+.item-right .basket-main-slider__slide {
+  cursor: pointer;
+}
+
+.item-right {
+  width: 80%;
+}
+
+.item-card {
+  width: 613px;
+  height: 599px;
+  border: 1px solid rgba(0, 0, 0, 0.24);
+  border-radius: 15px;
+}
+
+.item-card__head {
+  margin-bottom: 28px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.21);
+}
+
+.item-card__title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.item-card__price-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.item-card__tag {
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #7268EF;
+}
+
+.item-card__code {
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.item-card__price {
+  display: block;
+}
+
+.item-card__strong {
+  margin-right: 5px;
+}
+
+.item-card__type-wrap {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 209px;
+}
+
+.item-card__color-tag {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.item-card__buttons {
+  margin-bottom: 25px;
+}
+
+.item-card__button {
+  margin-right: 25px;
+  padding: 11px 20px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+  border: 1px solid rgba(114, 104, 239, 0.49);
+}
+
+.item-card__button:focus {
+  box-shadow: 3px 4px 4px rgba(114, 104, 239, 0.25);
+}
+
+.item-card__button:last-child {
+  margin-right: 0;
+}
+
+.item-card__buy-button {
+  padding: 12px;
+  width: 232px;
+  text-align: center;
+  color: #000000;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.item-card__buy-button:hover {
+  box-shadow: 2px 3px 5px 1px rgba(114, 104, 239, 0.19);
+}
+
+.counter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 109px;
+  height: 37px;
+  border: 1px solid #BAB5F7;
+}
+
+.counter__min-icon {
+  width: 5px;
+  height: 2px;
+}
+
+.counter__max-icon {
+  width: 8px;
+  height: 8px;
+}
+
+.counter__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 28px;
+  height: 100%;
+}
+
+.counter__button--min {
+  border-right: 1px solid rgba(114, 104, 239, 0.49);
+}
+
+.counter__button--max {
+  border-left: 1px solid rgba(114, 104, 239, 0.49);
+}
+
+.callback-form {
+  width: 437px;
+}
+
+.callback-form__input {
+  margin-right: 27px;
+  padding: 7px 12px;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.065em;
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 3px 5px 1px rgba(114, 104, 239, 0.19);
+}
+
+.callback-form__button {
+  padding: 7px;
+  width: 205px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.065em;
+  background-color: #60DB5E;
+  color: #FFFFFF;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.callback-form__button:hover {
+  box-shadow: 2px 3px 5px 1px rgba(114, 104, 239, 0.19);
+}
+
+.returns-info {
+  max-width: 392px;
+}
+
+.returns-info__head {
+  padding-bottom: 4px;
+  margin-bottom: 13px;
+  width: 110px;
+  border-bottom: 2px solid #7268EF;
+}
+
+.returns-info__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.065em;
+}
+
+.returns-info__text {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */

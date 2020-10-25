@@ -1,0 +1,182 @@
+.basket-main
+  padding: 49px 0 105px
+  &__wrapper
+    display: flex
+  &-slider
+    display: flex
+    justify-content:
+    align-items: flex-start
+    width: 697px
+    height: 599px
+    &__container
+      margin: 0 40px 0 0
+      max-width: 497px
+      height: 100%
+      background-color: $light-color
+    &__item-wrap
+      display: flex
+      justify-content: center
+      align-items: center
+      padding: 10px 0
+      height: 100%
+      border: 1px solid rgba(0, 0, 0, 0.25)
+      border-radius: 15px
+    &__image
+      max-width: 100%
+      height: 100%
+      object-fit: cover
+  &__item-card
+    padding: 18px 26px 29px
+  &__counter
+    margin-bottom: 30px
+  &__callback-form
+    margin-bottom: 37px
+
+.item-thumbs .basket-main-slider__slide
+  width: 112px
+  height: 100%
+  cursor: pointer
+.item-right .basket-main-slider__slide
+  cursor: pointer
+.item-right
+  width: 80%
+.item-thumbs
+  min-height:
+
+.item-card
+  width: 613px
+  height: 599px
+  border: 1px solid rgba(0, 0, 0, 0.24)
+  border-radius: 15px
+  &__head
+    margin-bottom: 28px
+    padding-bottom: 15px
+    border-bottom: 1px solid rgba(0, 0, 0, 0.21)
+  &__title
+    margin: 0
+    font-weight: 400
+    font-size: 25px
+    line-height: 29px
+    color: $dark-color
+  &__price-wrap
+    display: flex
+    flex-direction: column
+    align-items: flex-start
+    margin-bottom: 15px
+  &__tag
+    margin-bottom: 15px
+    font-weight: 400
+    font-size: 15px
+    line-height: 18px
+    color: $primary-color
+  &__code
+    margin-bottom: 15px
+    font-weight: 300
+    font-size: 15px
+    line-height: 18px
+    color: $dark-color
+  &__price
+    display: block
+  &__strong
+    margin-right: 5px
+  &__type-wrap
+    margin-bottom: 35px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    height: 209px
+  &__color-tag
+    display: inline-block
+    margin-bottom: 15px
+    font-weight: 300
+    font-size: 15px
+    line-height: 18px
+    color: $dark-color
+  &__buttons
+    margin-bottom: 25px
+  &__button
+    margin-right: 25px
+    padding: 11px 20px
+    font-weight: 300
+    font-size: 15px
+    line-height: 18px
+    color: $dark-color
+    border: 1px solid rgba(114, 104, 239, 0.49)
+    &:focus
+      box-shadow: 3px 4px 4px rgba(114, 104, 239, 0.25)
+    &:last-child
+      margin-right: 0
+  &__buy-button
+    padding: 12px
+    width: 232px
+    text-align: center
+    color: $dark-color
+    border-radius: 8px
+    transition: all 0.2s
+    &:hover
+      box-shadow: 2px 3px 5px 1px rgba(114, 104, 239, 0.19)
+.counter
+  display: flex
+  justify-content: space-between
+  align-items: center
+  width: 109px
+  height: 37px
+  border: 1px solid #BAB5F7
+  &__min-icon
+    width: 5px
+    height: 2px
+  &__max-icon
+    width: 8px
+    height: 8px
+  &__button
+    display: flex
+    justify-content: center
+    align-items: center
+    width: 28px
+    height: 100%
+    &--min
+      border-right: 1px solid rgba(114, 104, 239, 0.49)
+    &--max
+      border-left: 1px solid rgba(114, 104, 239, 0.49)
+
+.callback-form
+  width: 437px
+  &__input
+    margin-right: 27px
+    padding: 7px 12px
+    font-weight: 300
+    font-size: 13px
+    line-height: 15px
+    letter-spacing: 0.065em
+    background-color: $light-color
+    border: none
+    border-radius: 8px
+    box-shadow: 2px 3px 5px 1px rgba(114, 104, 239, 0.19)
+  &__button
+    padding: 7px
+    width: 205px
+    font-weight: 400
+    font-size: 13px
+    line-height: 15px
+    letter-spacing: 0.065em
+    background-color: $light-green-color
+    color: $light-color
+    border-radius: 8px
+    transition: all 0.2s
+    &:hover
+      box-shadow: 2px 3px 5px 1px rgba(114, 104, 239, 0.19)
+.returns-info
+  max-width: 392px
+  &__head
+    padding-bottom: 4px
+    margin-bottom: 13px
+    width: 110px
+    border-bottom: 2px solid $primary-color
+  &__title
+    margin: 0
+    font-weight: 700
+    font-size: 13px
+    line-height: 15px
+    letter-spacing: 0.065em
+  &__text
+    margin: 0
