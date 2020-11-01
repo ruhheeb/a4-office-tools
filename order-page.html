@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>A4 - Office Tools</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-top">
+      <div class="header-top__wrapper">
+        <a href="#" class="logo">
+          <svg class="icon logo__icon">
+            <use xlink:href="img/icons.svg#logo"></use>
+          </svg>
+        </a>
+        <!-- /.logo-link -->
+        <nav class="header-nav header__nav">
+          <ul class="header-nav__menu">
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">О компании</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Как заказать</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Доставка</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Склад</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Отзывы</a>
+            </li>
+            <li class="header-nav__item">
+              <a href="#" class="header-nav__link">Контакты</a>
+            </li>
+          </ul>
+          <!-- /.header-nav__menu -->
+        </nav>
+        <!-- /.navbar -->
+
+        <div class="adress header-top__adress">
+          <div class="adress__icon-wrap">
+            <img src="img/header/location.svg" alt="icon: location" class="adress__icon">
+          </div>
+          <span class="adress__info">Адрес:</span>
+          <span class="adress__location">Пушкина 25/3</span>
+        </div>
+        <!-- /.adress header-top__adress -->
+
+        <div class="social header-top__social">
+          <a href="#" class="social__link">
+            <img src="img/header/fb.svg" alt="icon: Facebook" class="social__icon">
+          </a>
+          <a href="#" class="social__link">
+            <img src="img/header/inst.svg" alt="icon: Instagram" class="social__icon">
+          </a>
+        </div>
+        <!-- /.social header-top__social -->
+      </div>
+      <!-- /.header-top__wrapper -->
+    </div>
+    <!-- /.header-top -->
+
+
+
+  </header>
+  <!-- /.header -->
+
+  <main class="order">
+    <div class="container">
+      <div class="order__wrapper">
+        <div class="order__order-form">
+          <h2 class="order__title">Оформления заказа</h2>
+
+          <form action="#" class="form order__form">
+
+            <div class="paymethod order__paymethod">
+
+              <div class="select paymethod-select">
+
+                <label class="select__label paymethod__label">Способ оплаты:</label>
+                <div class="select__selected paymethod__selected">
+                  <span class="select__current paymethod__selected-current">Выберите способ оплаты</span>
+                  <img src="img/order/arrow-down.svg" alt="icon: arrow-down"
+                    class="select__selected-icon paymethod__selected-icon">
+                </div>
+                <!-- /.paymethod__selected-wrap-->
+
+                <div class="select__option-container paymethod__option-container">
+
+                  <div class="select__option paymethod__option">
+                    <input type="radio" class="select__radio paymethod__radio" id="onreciept" name="method">
+                    <label for="#onreciept" class="select__option-label paymethod__option-label">Оплата при
+                      получение</label>
+                  </div>
+
+                  <div class="select__option paymethod__option">
+                    <input type="radio" class="select__radio paymethod__radio" id="bankcard" name="method">
+                    <label for="#bankcard" class="select__option-label paymethod__option-label">Оплата с банковской
+                      карты</label>
+                  </div>
+
+                  <div class="select__option paymethod__option">
+                    <input type="radio" class="select__radio paymethod__radio" id="paywallet" name="method">
+                    <label for="#paywallet" class="select__option-label paymethod__option-label">Оплата с
+                      кошелька</label>
+                  </div>
+
+                </div>
+                <!-- /.paymethod__option-container -->
+
+              </div>
+              <!-- /.paymethod-select -->
+            </div>
+            <!-- /.paymethod -->
+
+            <div class="delmethod order__delmethod">
+
+              <div class="select delmethod-select">
+
+                <label class="select__label delmethod__label">Способ доставки:</label>
+                <div class="select__selected delmethod__selected">
+                  <span class="select__selected-current delmethod__selected-current">Выберите способ доставки</span>
+                  <img src="img/order/arrow-down.svg" alt="icon: arrow-down"
+                    class="select__selected-icon delmethod__selected-icon">
+                </div>
+                <!-- /.delivery__selected -->
+
+                <div class="select__option-container delmethod__option-container">
+
+                  <div class="select__option delmethod__option">
+                    <input type="radio" class="select__radio delmethod__radio" id="post" name="delmethod">
+                    <label for="#post" class="select__label delmethod__option-label">Почта</label>
+                  </div>
+
+                  <div class="select__option delmethod__option">
+                    <input type="radio" class="select__radio delmethod__radio" id="toaddress" name="delmethod">
+                    <label for="№toaddress" class="select__label delmethod__option-label">Доставка по адресу</label>
+                  </div>
+
+                </div>
+                <!-- /.delmethod__option-container -->
+              </div>
+              <!-- /.delivery-select -->
+            </div>
+            <!-- /.delivery -->
+
+            <div class="post-office">
+              <div class="select post-office-select">
+
+                <div class="select__selected post-office__selected">
+                  <span class="select__selected-current post-office__selected-current">Выберите отделение</span>
+                  <img src="img/order/arrow-down.svg" alt="icon: arrow-down" class="select__selected-icon">
+                </div>
+                <!-- /.selected post-office__selected -->
+
+                <div class="select__option-container post-office__option-container">
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="sebail" name="post-office">
+                    <label for="#sebail" class="select__option-label post-office__option-label">AZ1000 Bakı / Səbayıl
+                      Z.Əliyeva
+                      33
+                    </label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="" name="post-office">
+                    <label for="" class="select__option-label post-office__option-label">AZ2000 Gəncə M.A Abbaszadə
+                      31
+                    </label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="yevlax" name="post-office">
+                    <label for="#yevlax" class="select__option-label post-office__option-label">AZ6600 Yevlax Q.Quliyev
+                      1
+                    </label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="yasamal" name="post-office">
+                    <label for="#yasamal" class="select__option-label post-office__option-label">AZ1122 Bakı / Yasamal
+                      Tbilisi pr.,
+                      187
+                    </label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="xetai" name="post-office">
+                    <label for="#xetai" class="select__option-label post-office__option-label">AZ1123 Bakı / Xətai
+                      X.Məmmədov
+                      13
+                    </label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="azadliqpr" name="post-office">
+                    <label for="#azadliqpr" class="select__option-label post-office__option-label">AZ1007 Bakı Azadlıq
+                      prospekti
+                      95
+                    </label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="sumqayit" name="post-office">
+                    <label for="#sumqayit" class="select__option-label post-office__option-label">AZ5000 Sumqayıt
+                      Azərbaycan pr.,
+                      15
+                    </label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="sebailhecibeyov"
+                      name="post-office">
+                    <label for="#sebailhecibeyov" class="select__option-label post-office__option-label">AZ1000 Bakı /
+                      Səbayıl Ü.Hacıbəyov
+                      36
+                    </label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="yasamalsherifzade"
+                      name="post-office">
+                    <label for="#yasamalsherifzade" class="select__option-label post-office__option-label">AZ1138 Bakı /
+                      Yasamal
+                      A.M.Şərifzadə 239
+                    </label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="bineqedi" name="post-office">
+                    <label for="#bineqedi" class="select__option-label post-office__option-label">AZ1124 Bakı / Binəqədi
+                      İ.Dadaşov
+                      109
+                    </label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="nerimanov" name="post-office">
+                    <label for="#nerimanov" class="select__option-label post-office__option-label">AZ1110 Bakı /
+                      Nərimanov
+                      Nərimanov
+                      ray.,Atatürk pr., 2
+                    </label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="lankaran" name="post-office">
+                    <label for="#lankaran" class="select__option-label post-office__option-label">AZ4200 Lənkəran
+                      M.Nəsirli
+                      4
+                    </label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="nesimi5mkr" name="post-office">
+                    <label for="#nesimi5mkr" class="select__option-label post-office__option-label">AZ1102 Bakı / Nəsimi
+                      5-ci
+                      mkr.,Asif Məhərrəmli 22A</label>
+                  </div>
+
+                  <div class="select__option post-office__option">
+                    <input type="radio" class="select__radio post-office__radio" id="zaqatala" name="post-office">
+                    <label for="#zaqatala" class="select__option-label post-office__option-label">AZ6200 Zaqatala
+                      H.Əliyev
+                      pr.
+                      36
+                    </label>
+                  </div>
+
+                  <!-- /.select__option post-office__option -->
+                </div>
+                <!-- /.select__option-container post-office__option-container -->
+              </div>
+              <!-- /.select post-office-select -->
+            </div>
+            <!-- /.post-office -->
+
+            <div class="city">
+
+              <div class="select city-select">
+
+                <div class="select__selected city__selected">
+                  <span class="select__selected-current city__selected-current">Выберите город</span>
+                  <img src="img/order/arrow-down.svg" alt="icon: arrow-down" class="select__selected-icon">
+                </div>
+                <!-- /.selected city__selected -->
+
+                <div class="select__option-container city__option-container">
+
+                  <div class="select__option city__option">
+                    <input type="radio" class="select__radio city__radio" id="baku" name="city">
+                    <label for="#baku" class="select__option-label city__option-label">Baku</label>
+                  </div>
+
+                  <div class="select__option city__option">
+                    <input type="radio" class="select__radio city__radio" id="gabala" name="city">
+                    <label for="#gabala" class="select__option-label city__option-label">Qabala</label>
+                  </div>
+
+                  <div class="select__option city__option">
+                    <input type="radio" class="select__radio city__radio" id="gobustan" name="city">
+                    <label for="#gobustan" class="select__option-label city__option-label">Gobustan</label>
+                  </div>
+
+                  <div class="select__option city__option">
+                    <input type="radio" class="select__radio city__radio" id="gusar" name="city">
+                    <label for="#gusar" class="select__option-label city__option-label">Qusar</label>
+                  </div>
+
+                </div>
+                <!-- /.select__option-container city__option-container -->
+              </div>
+              <!-- /.select city-select -->
+
+            </div>
+            <!-- /.city -->
+
+            <div class="recipient-info">
+              <label class="recipient-info__label">Информация о получателе:</label>
+              <input type="text" class="recipient-info__input" placeholder="Имя" name="">
+              <input type="text" class="recipient-info__input" placeholder="Фамилия" name="">
+              <input type="text" class="recipient-info__input" placeholder="Отчество" name="">
+              <input type="text" class="recipient-info__input" placeholder="+994 (___) ___-__-__" name="">
+              <input type="text" class="recipient-info__input" placeholder="Email" name="">
+            </div>
+            <!-- /.recipient-info -->
+
+            <div class="order__price-wrap">
+              <span class="order__price-tag">К оплате</span>
+              <span class="order__price">365 azn.</span>
+            </div>
+            <!-- /.order__price-wrap -->
+
+          </form>
+          <!-- /.form order__form -->
+
+        </div>
+        <!-- /.order__order-form -->
+
+      </div>
+      <!-- /.main__wrapper -->
+    </div>
+    <!-- /.container -->
+  </main>
+  <!-- /.main -->
+
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

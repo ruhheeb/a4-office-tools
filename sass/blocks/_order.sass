@@ -1,0 +1,186 @@
+.order
+  padding: 44px 0 69px
+  &__title
+    margin: 0 0 14px
+  &__paymethod
+    margin-bottom: 28px
+  &__delmethod
+    margin-bottom: 28px
+
+.form
+  padding: 20px 30px
+  max-width: 729px
+  height: 892px
+  border: 1px solid rgba(114, 104, 239, 0.5)
+
+.select
+  position: relative
+  width: 480px
+  height: 75px
+  background-color: $light-color
+  &__label
+    font-weight: 400
+    font-size: 13px
+    line-height: 15px
+    color: $dark-color
+  &__selected
+    position: relative
+    display: flex
+    justify-content: space-between
+    border: 1px solid rgba(0, 0, 0, 0.18)
+    background-color: $light-color
+  &__selected-current
+    font-weight: 400
+    font-size: 15px
+    line-height: 15px
+    color: $dark-color
+  &__selected-icon
+    width: 14px
+    height: 14px
+    transition: all 0.4s
+  &__option-container
+    position: absolute
+    top: 77px
+    left: 0
+    right: 0
+    z-index: 1
+    width: 100%
+    max-height: 200px
+    background-color: $light-color
+    border: 1px solid rgba(0, 0, 0, 0.18)
+    transition: all 0.4s
+    border-top: 0
+    display: none
+    overflow: hidden
+    &::-webkit-scrollbar
+      width: 8px
+      background-color: $light-grey-color
+    &::-webkit-scrollbar-thumb
+      height: 20px
+      background-color: $grey-color
+      border-radius: 2px
+  &__option
+    &:hover
+      background-color: $light-bg-color
+  &__selected, &__option
+    padding: 12px 11px
+    background-color: $light-color
+    cursor: pointer
+
+.paymethod
+  &__label
+    display: block
+    margin-bottom: 15px
+    font-weight: 400
+    font-size: 17px
+    line-height: 19px
+    color: $dark-color
+  &-select, &__option-container
+    transition: all 0.4s
+  &__radio
+    display: none
+  &-select, &__option-label
+    cursor: pointer
+  &__option-container
+    &--active
+      display: block
+      overflow-y: auto
+      transition: all 0.4s
+  &__option-container, &__selected
+    &--active
+      box-shadow: 0 1px 4px 0 rgba(0,0,0,0.09)
+
+.delmethod
+  &__label
+    display: block
+    margin-bottom: 15px
+    font-weight: 400
+    font-size: 17px
+    line-height: 19px
+  &-select, &__option-container
+    transition: all 0.4s
+  &__radio
+    display: none
+  &-select, &__option-label
+    cursor: pointer
+  &__option-container
+    top: 75px
+    max-height: 150px
+    z-index: 2
+    &--active
+      display: block
+      overflow-y: auto
+      transition: all 0.4s
+  &__option-container, &__selected
+    &--active
+      box-shadow: 0 1px 4px 0 rgba(0,0,0,0.09)
+
+.post-office
+  &__label
+    display: block
+    margin-bottom: 15px
+    font-weight: 400
+    font-size: 16px
+    line-height: 19px
+  &-select, &__option-container
+    transition: all 0.4s
+  &__radio
+    display: none
+  &-select, &__option-label
+    cursor: pointer
+  &__option-container
+    top: 42px
+    z-index: 2
+    &--active
+      display: block
+      overflow-y: auto
+      transition: all 0.4s
+  &__option-container, &__selected
+    &--active
+      box-shadow: 0 1px 4px 0 rgba(0,0,0,0.09)
+
+.city
+  &__label
+    display: block
+    margin-bottom: 15px
+    font-weight: 400
+    font-size: 16px
+    line-height: 19px
+  &-select, &__option-container
+    transition: all 0.4s
+  &__radio
+    display: none
+  &-select, &__option-label
+    cursor: pointer
+  &__option-container
+    top: 42px
+    z-index: 2
+    &--active
+      display: block
+      overflow-y: auto
+      transition: all 0.4s
+  &__option-container, &__selected
+    &--active
+      box-shadow: 0 1px 4px 0 rgba(0,0,0,0.09)
+
+.recipient-info
+  display: flex
+  flex-direction: column
+  width: 480px
+  &__label
+    display: inline-block
+    margin-bottom: 15px
+    font-weight: 400
+    font-size: 17px
+    line-height: 19px
+    color: $dark-color
+  &__input
+    margin-bottom: 24px
+    padding: 12px 11px
+    height: 41px
+    font-weight: 400
+    font-size: 13px
+    line-height: 15px
+    color: $dark-color
+    border: 1px solid rgba(0, 0, 0, 0.18)
+    background-color: $light-color
